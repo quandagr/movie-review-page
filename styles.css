@@ -1,0 +1,10 @@
+body{
+    background-image: url('assest/threaterimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    min-height: 100vh;
+}

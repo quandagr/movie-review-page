@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grant's Movie Reviews</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Grant's Movie Reviews</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="movies.html">Movies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="reviews.hmtl">Leave a comment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<main>
+    <h1 class="display-4 text-center ny-4">Welcome to Grant's Movie Reviews</h1>
+    <h2 class="display-6 text-center ny-2">Login To See Your Reviews</h2>
+    <p class="text-center p-2">Your go-to place for honest and insightful movie reviews.</p>
+    <section class="container border border-3 p-3 rounded-3 w-50"shadow-lg p-3 mb-4>
+        <form id="loginform" class="d-flex justify-content-center">
+                <label for="username">Username:</label>
+                <input  
+                type="text" 
+                id="username" 
+                name="username" 
+                placeholder="Enter your username"
+                required/>
+                <button class="bg-success" type="submit">Login</button>
+            </div>
+            </form>
+    </section>
+</main> 
+
+<footer class="bg-success text-white text-center fixed-bottom py-3 mt-4">
+    <p>&copy; 2025 Grant's Movie Reviews. All rights reserved.</p>
+</footer>
+</body>
+</html>
